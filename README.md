@@ -20,7 +20,7 @@ Welcome to the **Word of Wisdom** TCP server project! This server provides inspi
 
    ```bash
    git clone https://github.com/ervand7/PoW.git
-   cd word-of-wisdom
+   cd PoW
    ```
 
 2. **Configure Environment Variables**
