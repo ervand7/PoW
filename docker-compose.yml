@@ -1,0 +1,15 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    container_name: pow-server
+    ports:
+      - "8000:8000"
+    restart: always
+
+  client:
+    build: ./client
+    container_name: pow-client
+    depends_on:
+      - server
+    restart: always
